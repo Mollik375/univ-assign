@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohan's Classwork</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        .section {
+            margin: 20px auto;
+            padding: 10px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+        }
+        .section a {
+            display: block;
+            margin: 5px 0;
+            text-decoration: none;
+            color: #007BFF;
+        }
+        .section a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rohan</h1>
+    <div class="section">
+        <h2>Assignments</h2>
+        <a href="https://docs.google.com/document/d/17QI35bDJIBSoXF4gIy4fRXuCLE1Yji6WHQVb2pow4XQ/edit?usp=sharing" target="_blank">Assignment 1</a>
+        <a href="#" id="assignment2">Assignment 2</a>
+        <a href="#" id="assignment3">Assignment 3</a>
+        <a href="#" id="assignment4">Assignment 4</a>
+        <a href="#" id="assignment5">Assignment 5</a>
+    </div>
+    <div class="section">
+        <h2>Bachelors Information</h2>
+        <a href="#" id="bachelors">View Details</a>
+    </div>
+    <div class="section">
+        <h2>Masters Information</h2>
+        <a href="#" id="masters">View Details</a>
+    </div>
+</body>
+</html>
